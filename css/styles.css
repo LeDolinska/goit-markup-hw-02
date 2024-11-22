@@ -43,12 +43,14 @@ a {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal;
+}
 .address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 .address-link:hover,
@@ -96,7 +98,7 @@ a {
     color: #2e2f42
 }
 
-.advantages h3 {
+.name-adv {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -115,14 +117,20 @@ a {
 .title-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 
+}
+.team-list {
+    background-color: #FFFFFF;
 }
 
 .name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 .description {
@@ -145,10 +153,6 @@ a {
     text-transform: capitalize;
 }
 
-.portfolio > .name {
-    background-color: #FFFFFF;
-    letter-spacing: 0.02em;
-}
 
 .footer {
     background-color: #2e2f42;
